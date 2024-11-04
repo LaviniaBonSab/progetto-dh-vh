@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>L'Archive Hugo</title>
+
+		<!--- META -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Lavinia Bonfatti Sabbioni" />
+		<meta name="description" content="Archivio dedicato alla vita e alle opere del francese Victor Hugo" />
+		<meta name="keywords" content="Victor Hugo, romanzo, dramma, poesia, disegno, politica, Francia, romanticismo" />
+
+
+		<!--- DC --->
+		<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+		<meta name="DC.Title" content="L'Archive Hugo">
+		<meta name="DC.Creator" content="Lavinia Bonfatti Sabbioni">
+		<meta name="DC.Subject" content="Victor Hugo, romanzo, dramma, poesia, disegno, politica, Francia, romanticismo">
+	    <meta name="DC.Description" content="Archivio dedicato alla vita e alle opere del francese Victor Hugo (1802-1885)">
+	    <meta name="DC.Publisher" content="GitHub">
+	    <meta name="DC.Date" content="2024">
+	    <meta name="DC.Type" content="Text">
+	    <meta name="DC.Format" content="html">
+	    <meta name="DC.Identifier" content="">
+	    <meta name="DC.Language" content="ita">
+	    <meta name="DC.Coverage" content="Italy, 2024">
+	    <meta name="DC.Rights" content="CC BY-NC">
+
+		<!--- FOGLI DI STILE -->
+		<link rel="stylesheet" href="style/style1.css" />
+		<link href='https://fonts.googleapis.com/css?family=Abhaya Libre' rel='stylesheet'>
+	</head>
+
+
+	<body>
+		<!--- NAVBAR -->
+     <nav class="main">
+       <span id="home"><a href="index.html">Home</a></span>
+       <span><a href="#">Progetto</a></span>
+       <span><a href="timeline.html">Biografia</a></span>
+       <span><a href="list-items.html">Catalogo</a></span>
+       <span><a href="#">Altro</a></span>
+     </nav>	
+
+
+   <!-- grid due colonne -->
+   <div class="main-content">
+   	<div class="column">
+      <!-- colonna di sinistra -->
+      <div class="leftcolumn">
+        <!-- breadcrumbs -->
+        <div>
+          <ul class="breadcrumb">
+            <li>
+            	<a href="index.html" title="Vai alla home">Home</a>
+            </li>
+            <li>
+              <a href="list-items.html" title="Vai al catalogo">Catalogo</a>
+            </li>
+            <li>
+            	<a href="#" title="Vai all'item">Item</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- inserisci search bar -->
+		<form class="searchBar" action="/action_page.php">
+	      <input type="text" placeholder="Cerca.." name="search" autocomplete="off">
+	      <button type="submit">Vai</button>
+	    </form> 
+
+        <!-- scopri di più sull'opera -->
+        <br />
+        <div>
+          <p>Scopri di più sull'opera</p>
+          <a href="https://www.maisonsvictorhugo.paris.fr/en/paris" class="btn bg-green" title="vedi il sito Maisons Victor Hugo" target="_blank">Esplora la <span style="font-style: italic;">Maison de Victor Hugo</span> a Parigi e Guernesey</a>
+          <br />
+          <p>Visita anche</p>
+          <a href="https://www.museevictorhugo.fr/" class="btn bg-green" title="vedi il sito Musèe Victor Hugo" target="_blank">Esplora il <span style="font-style: italic;">Musée Victor Hugo</span></a>
+          <br />
+          <p>Accedi ai formati XML TEI/DC</p>
+          <a href="xml-item-hugo.xml" class="btn bg-green" title="file xml" target="_blank">File TEI</a>
+          <a href="DC-item-hugo.xml" class="btn bg-green" title="file DC" target="_blank">File DC</a>
+          <br/>
+          <p>Altri formati</p>
+          <a href="mods-item-hugo.xml" class="btn bg-green" title="file MODS" target="_blank">File MODS</a>
+        </div>
+      </div>
+
+
+
+     <!-- colonna di destra -->
+     <div class="rightcolumn">
+     	<h2>Le Burg au clair de lune</h2>
+     	<div class="border-section">
+          <!-- img -->
+          <div>
+            <img src="img/burg_lune.jpg" class="responsive img-item" alt="borgo al chiaro di luna" />
+          </div>
+
+          <!-- metadati -->
+          <div class="bg-gray metadata pd-12">
+            <h3>Metadati</h3>
+            <p><span>Titolo orginale (francese):</span> Le Burg au clair de lune</p>
+            <p><span>Titolo (italiano):</span> Il Castello al chiaro di luna</p>
+            <p><span>Creatore:</span> Victor Hugo</p><sup><a href="https://viaf.org/viaf/search?query=local.names%20all%20%22V%C3%ADctor%20Hugo%2C%201802%201885%22&sortKeys=holdingscount&recordSchema=BriefVIAF" target="_blank"><img class="metadataIcon" src="img/icona_viaf.png"/></a></sup>
+            <p><span>Data di creazione:</span> intorno al 1857-1858 (terzo quarto del XIX secolo)</p>
+            <p><span>Data di acquisizione:</span> 1903</p>
+            <p><span>Materiali e Tecnica:</span> Penna , Lavis, Pietra nera, Gouache, Graffiato, Stencil, Cartone</p>
+            <p><span>Dimensioni dell'opera:</span> 29.2 x 16 cm</p>
+            <p><span>Segni, iscrizioni:</span> in basso, a sinistra: "Victor Hugo"</p>
+            <p><span>Numero di inventario:</span> 26</p>
+            <p><span>Ubicazione:</span> Maison de Victor Hugo, Paris</p>
+
+          </div>
+
+          
+          </div>
+
+          <!-- metadati -->
+          <div class="bg-gray metadata pd-12">
+            <h3>Descrizione</h3>
+            Questo disegno a penna e inchiostro di china mostra un castello che si erge maestoso e solitario contro un cielo illuminato dalla luna, la sua sagoma avvolta nell'oscurità e al contempo rischiarata da un bagliore etereo. I toni seppia conferiscono profondità alla composizione, mentre accenti di gouache donano lievi sfumature di colore. L'attenzione meticolosa di Hugo per i dettagli emerge in ogni tratto: dagli elementi architettonici della torre e della guglia alle delicate texture che ricoprono ogni superficie. Osservando Il Castello al Chiaro di Luna, l'immaginazione si libera e veniamo trasportati in un mondo carico di fascino e meraviglia. Esposto alla Maison de Victor Hugo a Parigi, quest'opera d'arte continua a incantare il pubblico con il suo fascino senza tempo. Ci ricorda il genio poliedrico di Hugo, capace di superare la fama dei suoi scritti letterari.
+          </div>
+        </div>  
+     </div>
+    </div>
+
+ 
+  
+    <br/>
+    <!--- FOOTER -->
+    <footer class="dark">
+    	<p>
+    	<a href="#" title="Credits">Credits</a> |
+        <a href="#" title="Licenze">Licenze</a>
+        </p>
+        
+        </br>
+    	<p>&copy; Lavinia Bonfatti Sabbioni 2024 - L'Archive Hugo | Corso di Digital Humanities</p>
+    </footer>
+
+
+	</body>
