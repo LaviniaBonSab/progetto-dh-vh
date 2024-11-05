@@ -90,7 +90,7 @@ body, html {
 
 /* The hero image */
 .hero-image {
-  background-image: url('file:///C:/Users/Lavinia/Desktop/ESAME_DH_SITO_WEB/img/VH.jpg'); 
+  background-image: url('img/VH.jpg'); 
   max-width: 100%;
   height: 75%;
   background-repeat: no-repeat;
